@@ -1,0 +1,11 @@
+# This is an example config file, you should make a copy of this file called config.yaml and put appropriate
+# values for your set up.
+
+# The client ID is the client ID of your app's registration with the Microsoft Identity platform
+# Instructions to register: https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app
+client_id: xxxxxxyyyyyzzzz
+
+# The token scope sets what API access level your app will request from the user. Different permissions give access
+# to different API endpoints. This should be provided as a list of strings. A list of the different scopes is here:
+# https://docs.microsoft.com/en-us/graph/permissions-reference
+token_scope: ["User.Read"]
